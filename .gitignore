@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large packet captures & binary dumps
+*.pcap
+*.pcapng
+*.cap
+*.dmp
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive files / keys
+*.pem
+*.key
+*.id_rsa
+secrets.json
+.env.local
